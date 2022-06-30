@@ -14,5 +14,5 @@ Pod::Spec.new do |spec|
     spec.ios.deployment_target  = "12.0"
 
     # Published binaries
-    vendored_frameworks = "KmmShared/build/release/KmmShared.xcframework"
+    spec.vendored_frameworks = "KmmShared/build/release/KmmShared.xcframework"
   end
