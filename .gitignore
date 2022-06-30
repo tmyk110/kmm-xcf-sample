@@ -14,4 +14,5 @@
 .cxx
 local.properties
 
-kmmShared/build
+/kmmShared/build/*
+!/kmmShared/build/XCFrameworks/
