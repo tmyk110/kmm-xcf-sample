@@ -14,8 +14,8 @@ Pod::Spec.new do |spec|
     spec.ios.deployment_target  = "12.0"
 
     # Published binaries
-    spec.static_framework    = true
     spec.vendored_frameworks = "KmmShared.xcframework"
-    spec.libraries           = "c++"
-    spec.module_name         = "#{spec.name}_umbrella"
+#    spec.static_framework    = true
+#    spec.libraries           = "c++"
+#    spec.module_name         = "#{spec.name}_umbrella"
   end
