@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
     spec.documentation_url  = "..."
     spec.license            = { :type => "MIT" }
     spec.author             = { "Star Wars" => "..." }
-    spec.source             = { :git => 'https://github.com/tmyk110/kmm-xcf-sample', :tag => "#{spec.version}" }
+    spec.source             = { :git => 'https://github.com/tmyk110/kmm-xcf-sample.git', :tag => "#{spec.version}" }
     spec.swift_version      = "5.3"
 
     # Supported deployment targets
