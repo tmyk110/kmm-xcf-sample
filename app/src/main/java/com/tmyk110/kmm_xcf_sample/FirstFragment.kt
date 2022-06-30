@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.tmyk110.kmm_xcf_sample.databinding.FragmentFirstBinding
+import com.tmyk110.kmmshared.Platform
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
@@ -35,6 +36,8 @@ class FirstFragment : Fragment() {
         binding.buttonFirst.setOnClickListener {
             findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
         }
+
+        binding.textviewFirst.text = Platform().platform
     }
 
     override fun onDestroyView() {
