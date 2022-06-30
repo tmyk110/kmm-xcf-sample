@@ -5,7 +5,7 @@
 	<key>CFBundleExecutable</key>
 	<string>kmmShared</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.tmyk110.kmmshared.kmmShared</string>
+	<string>com.tmyk110.kmmshared.KmmShared</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

@@ -1,5 +1,5 @@
-framework module kmmShared {
-    umbrella header "kmmShared.h"
+framework module KmmShared {
+    umbrella header "KmmShared.h"
 
     export *
     module * { export * }
