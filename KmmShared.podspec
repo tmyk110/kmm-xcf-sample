@@ -15,7 +15,4 @@ Pod::Spec.new do |spec|
 
     # Published binaries
     spec.vendored_frameworks = "KmmShared.xcframework"
-#    spec.static_framework    = true
-#    spec.libraries           = "c++"
-#    spec.module_name         = "#{spec.name}_umbrella"
   end
